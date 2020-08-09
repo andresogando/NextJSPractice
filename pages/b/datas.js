@@ -26,18 +26,19 @@ function datas({data,currency,rates}){
                     <td>1</td>
                     <td>{currency}</td>
                     <td>{rates}</td>
-                    <td></td>
+                    <td><a href='#'><i class="fab fa-bitcoin"></i></a></td>
                     </tr>
                     <tr>
                     <td>2</td>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
+                    <td>Andres</td>
+                    <td>Vale Demasiado</td>
+                    <td><a href='https://twitter.com/andresyrn'><i class="fab fa-twitter"></i></a></td>
                     </tr>
                     <tr>
                     <td>3</td>
-                    <td colSpan="2">Larry the Bird</td>
-                    <td>@twitter</td>
+                    <td>tu </td>
+                    <td>jeva ------></td>
+                    <td><a href='https://www.ecestaticos.com/imagestatic/clipping/bf0/a79/bf0a79fe50efe822c089f8ca50c0cd4f/las-sorprendentes-razones-por-las-que-los-aviones-son-blancos.jpg?mtime=1579565836'><i class="fas fa-plane"></i></a></td>
                     </tr>
                 </tbody>
             </Table>
