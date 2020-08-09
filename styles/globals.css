@@ -1,0 +1,35 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: medium;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.fas.fa-home{
+  font-size: 20px;
+  color: darkcyan;
+  
+
+}
+
+
+
+
+ul li{
+  display: inline-block;
+  padding-left: 1%;
+}
