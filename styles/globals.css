@@ -10,9 +10,34 @@ body {
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  
+  color: royalblue;
+  overflow: hidden;
 }
+a {
+  /* Same as before */
+  background: linear-gradient(to right, midnightblue, midnightblue 50%, royalblue 50%);
+}
+a {
+  /* Same as before */
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+}
+a {
+  /* Same as before */
+  transition: background-position 275ms ease;
+}
+a:hover {
+  background-position: 0 100%;
+}
+
+
+
 
 * {
   box-sizing: border-box;
@@ -33,3 +58,4 @@ ul li{
   display: inline-block;
   padding-left: 1%;
 }
+
