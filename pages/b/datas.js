@@ -34,7 +34,7 @@ function datas({data,currency,rates}){
                     <td>2</td>
                     <td>Andres</td>
                     <td>Vale Demasiado</td>
-                    <td><a href='https://twitter.com/andresyrn'><i class="fab fa-twitter"></i></a></td>
+                    <td><IconButton> <a href="https://twitter.com/Andresyrn"> <TwitterIcon /> </a></IconButton></td>
                     </tr>
                     <tr>
                     <td>3</td>
