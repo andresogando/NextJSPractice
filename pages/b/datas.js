@@ -1,4 +1,4 @@
-import {Table} from 'react-bootstrap'
+import {Table, Alert} from 'react-bootstrap'
 import Layout from '../../components/layout';
 import LocalAirportIcon from '@material-ui/icons/LocalAirport';
 import IconButton from '@material-ui/core/IconButton';
@@ -8,6 +8,9 @@ import Link from 'next/link';
 
 
 function datas({data,currency,rates}){
+  
+   
+
 
     return(
          <Layout>
@@ -43,18 +46,21 @@ function datas({data,currency,rates}){
                     </tr>
                 </tbody>
             </Table>
-                
+
         </div>
                     <div>
                         <Link href="/"><a><i class="fas fa-chevron-left"></i> Go Back!!  </a></Link>  
                     </div>
-
+                    
+                   
+            
         </Layout>
 
     )
+    
 }
 
-
+          
 
 
 

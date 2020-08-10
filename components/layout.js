@@ -16,7 +16,7 @@ export default function Layout({children}) {
      
         <Meta />
         <Header />
-        <div>
+        <div className='layout__main'>
             <Container fluid="sm">
                 <main>{children}
                                     
