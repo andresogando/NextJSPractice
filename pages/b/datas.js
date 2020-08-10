@@ -3,7 +3,7 @@ import Layout from '../../components/layout';
 import LocalAirportIcon from '@material-ui/icons/LocalAirport';
 import IconButton from '@material-ui/core/IconButton';
 import TwitterIcon from '@material-ui/icons/Twitter';
-
+import Link from 'next/link';
 
 
 
@@ -45,6 +45,10 @@ function datas({data,currency,rates}){
             </Table>
                 
         </div>
+                    <div>
+                        <Link href="/"><a><i class="fas fa-chevron-left"></i> Go Back!!  </a></Link>  
+                    </div>
+
         </Layout>
 
     )
@@ -59,7 +63,7 @@ function datas({data,currency,rates}){
 
 datas.getInitialProps = async(ctx) => {
     const res = await fetch('https://api.coinbase.com/v2/prices/btc-usd/spot')
-    const json = await res.json()
+    const json = await res.json()  
     return {  currency: json.data.currency, rates: json.data.amount  }
 
 }

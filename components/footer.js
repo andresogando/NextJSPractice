@@ -7,9 +7,7 @@ import FacebookIcon from '@material-ui/icons/Facebook';
 
 export default function Footer(){
     return(
-        <Container >
-            <p>Andres la para</p>
-            
+        <Container className='footer__layout' >
             <div className="footer__icons">
                <IconButton> <a href="#"> <TwitterIcon /> </a></IconButton>        
                <IconButton> <a href="#"> <FacebookIcon /> </a></IconButton>        

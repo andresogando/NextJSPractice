@@ -20,14 +20,10 @@ export default function Layout({children}) {
             <Container fluid="sm">
                 <main>{children}
                                     
-                    <div>
-                        <Link href="/"><a><i class="fas fa-chevron-left"></i> Go Back!!  </a></Link>  
-                    </div>
-
+                   
                 </main>        
             </Container>
         </div>
-        <hr/>
 
       <Footer />
       <script src="https://kit.fontawesome.com/df42958a46.js" crossorigin="anonymous"></script>

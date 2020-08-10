@@ -2,12 +2,28 @@ import Layout from "../components/layout"
 import { Jumbotron, Button } from "react-bootstrap"
 import Link from 'next/link'
 import { Container,Row, Col } from 'react-bootstrap'
+import { Fab } from '@material-ui/core';
+import NavigationIcon from '@material-ui/icons/Navigation';
+import { makeStyles } from '@material-ui/core/styles';
 
 
 
+const useStyles = makeStyles((theme) => ({
+    root: {
+      '& > *': {
+        margin: theme.spacing(1),
+      },
+    },
+    extendedIcon: {
+      marginRight: theme.spacing(1),
+    },
+  }));
+
+  
 
 
 function HomePage() {
+    const classes = useStyles();
     return (
        <Layout>
            <Jumbotron>
@@ -19,7 +35,12 @@ function HomePage() {
 
 
         <div id="Boton para navegar">
-            <Button variant="outline-primary"><a href="/b/Empleo"> Que grasa Vale</a></Button>{' '}
+        <Link href="/b/datas"> 
+        <Fab variant="extended">
+            <NavigationIcon className={classes.extendedIcon} />
+                Que Grasa Vale 🔥
+        </Fab>
+        </Link>
 
         </div>
 
