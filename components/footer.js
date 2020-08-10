@@ -1,6 +1,8 @@
 import {Form, Col, Button, Container, } from 'react-bootstrap';
 import Link from 'next/link'
-
+import TwitterIcon from '@material-ui/icons/Twitter';
+import { IconButton } from '@material-ui/core';
+import FacebookIcon from '@material-ui/icons/Facebook';
 
 
 export default function Footer(){
@@ -8,10 +10,11 @@ export default function Footer(){
         <Container >
             <p>Andres la para</p>
             
-            <ul>
-            <Link href="/"><li><p><i class="fab fa-twitter"></i></p> </li></Link> 
-                <li><p><i class="fab fa-facebook-f"></i></p></li>
-            </ul>
+            <div className="footer__icons">
+               <IconButton> <a href="#"> <TwitterIcon /> </a></IconButton>        
+               <IconButton> <a href="#"> <FacebookIcon /> </a></IconButton>        
+            </div>
+            
             
         </Container>
     )

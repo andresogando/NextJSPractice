@@ -21,7 +21,7 @@ export default function Layout({children}) {
                 <main>{children}
                                     
                     <div>
-                        <Link href="/"><a><i class="fas fa-chevron-left"></i> Go Back!!</a></Link>  
+                        <Link href="/"><a><i class="fas fa-chevron-left"></i> Go Back!!  </a></Link>  
                     </div>
 
                 </main>        
@@ -32,7 +32,6 @@ export default function Layout({children}) {
       <Footer />
       <script src="https://kit.fontawesome.com/df42958a46.js" crossorigin="anonymous"></script>
 
-      
       </>
       )
     }
