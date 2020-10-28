@@ -29,7 +29,7 @@ function HomePage() {
            <Jumbotron>
                <h2>Andres 💯😝</h2>
                <p>
-                   Andrés es el final una maldita grasa caribeña ye 
+                   TESTING React-Bootstrap Jumbotron 
               </p>
            </Jumbotron>
 
@@ -38,7 +38,7 @@ function HomePage() {
         <Link href="/b/datas"> 
         <Fab variant="extended">
             <NavigationIcon className={classes.extendedIcon} />
-                Que Grasa Vale 🔥
+            Go to a Table with actual Bitcoin Price and more. 
         </Fab>
         </Link>
 

@@ -40,8 +40,8 @@ function datas({data,currency,rates}){
                     </tr>
                     <tr>
                     <td>3</td>
-                    <td>tu </td>
-                    <td>jeva ------> </td>
+                    <td>More Tests </td>
+                    <td> Test</td>
                     <td><a href='#'><IconButton>  <LocalAirportIcon /> </IconButton> </a></td>
                     </tr>
                 </tbody>
